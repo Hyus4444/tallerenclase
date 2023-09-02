@@ -1,13 +1,18 @@
 .container {
     margin-top: 10px;
     width: 200px;
-    height: 300px;
+    height: 200px;
 }
 #container1{
-
     background-color: black;
+    float: right;
 }
 #container2{
-
+     display: none;
      background-color: blueviolet;
+     float: left;
+}
+.forma {
+    border-radius: 50%;
+    background-color: blue;
 }
