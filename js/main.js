@@ -16,3 +16,7 @@ $("#container2").on("mouseover",function(){
 $("#container2>h1").append("<i>Hola uwu</i>")
 $("#container2>h1").append("<marquee>Hola uwu<marquee>")
 });
+
+$("#btn-guardar").on("click",function(){
+    alert($("#autoSizingInputGroup").val()+""+$("#autoSizingInput").val())
+})
