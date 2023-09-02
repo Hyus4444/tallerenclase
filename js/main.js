@@ -18,5 +18,5 @@ $("#container2>h1").append("<marquee>Hola uwu<marquee>")
 });
 
 $("#btn-guardar").on("click",function(){
-    alert($("#autoSizingInputGroup").val()+""+$("#autoSizingInput").val())
+    alert($("#autoSizingInput").val()+""+$("#autoSizingInputGroup").val())
 })
